@@ -1,0 +1,11 @@
+services:
+
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: docker-todo-test-client
+    container_name: DockerTodoTestClient
+    ports:
+      - 32600:80
