@@ -8,4 +8,4 @@ services:
     image: docker-todo-test-client
     container_name: DockerTodoTestClient
     ports:
-      - 54020:80
+      - 54025:80
